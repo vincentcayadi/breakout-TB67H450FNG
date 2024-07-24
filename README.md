@@ -18,4 +18,4 @@ I have designed the components using [KiCAD EDA](https://www.kicad.org/), a free
 
 # Schematic
 
-![Schematic](schematic.svg)
+![Schematic](schematic.png)
