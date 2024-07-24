@@ -18,4 +18,7 @@ I have designed the components using [KiCAD EDA](https://www.kicad.org/), a free
 
 # Schematic
 
-![Schematic](schematic.png)
+![Schematic](schematic.jpeg)
+
+# PCB
+![PCB](pcb.jpeg)

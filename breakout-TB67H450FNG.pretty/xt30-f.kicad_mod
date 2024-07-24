@@ -1,0 +1,223 @@
+(footprint "xt30-f"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "05b16c6b-edc2-458c-a2f4-40ae19aa7107")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "xt30-f"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45ef3c9c-3d40-40af-aacf-0b067504a366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "803dcb64-ae22-4978-b254-680c3d78d45c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "582e5cd0-e92b-406e-9966-114a902eabdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d127c4d8-f752-477f-8588-839b97fde6a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.2 -2.1)
+		(end -5.2 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4117a827-ba6d-49d2-b065-b103f6824552")
+	)
+	(fp_line
+		(start -4.6 2.7)
+		(end 3.3 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4689995f-49d6-463c-8c0c-1dca6502f32c")
+	)
+	(fp_line
+		(start 3.3 -2.7)
+		(end -4.6 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9599c5b-6dc4-4122-a727-458d8f93e97f")
+	)
+	(fp_line
+		(start 5.2 0.8)
+		(end 5.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "788a4696-9506-4468-bebe-903a9f380276")
+	)
+	(fp_arc
+		(start -5.2 -2.1)
+		(mid -5.024264 -2.524264)
+		(end -4.6 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61b184fd-3781-48bc-a1f9-a1d88d2bfb91")
+	)
+	(fp_arc
+		(start -4.6 2.7)
+		(mid -5.024264 2.524264)
+		(end -5.2 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40cfc834-a93a-4fa7-ba7c-f3a0c0b4327b")
+	)
+	(fp_arc
+		(start 3.3 -2.7)
+		(mid 4.643503 -2.143503)
+		(end 5.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e147f490-e048-4fa8-af9d-c83025f9a087")
+	)
+	(fp_arc
+		(start 5.2 0.8)
+		(mid 4.643503 2.143503)
+		(end 3.3 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61642580-5615-4234-adfb-e6b15de34036")
+	)
+	(fp_rect
+		(start -5.3 -2.8)
+		(end 5.3 2.8)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "85924bad-35c2-4bce-b666-6c544aafda01")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.5 0 180)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 3)
+			(curve_points 10)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a5396b8f-e6d4-4a15-8238-9f62c00d9e98")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0 180)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 3)
+			(curve_points 10)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "fd472309-2322-44e6-a322-92e9c5704401")
+	)
+	(group ""
+		(uuid "cf71b5bc-708b-4268-b2fb-652f7a17abcf")
+		(members "40cfc834-a93a-4fa7-ba7c-f3a0c0b4327b" "4117a827-ba6d-49d2-b065-b103f6824552"
+			"4689995f-49d6-463c-8c0c-1dca6502f32c" "61642580-5615-4234-adfb-e6b15de34036"
+			"61b184fd-3781-48bc-a1f9-a1d88d2bfb91" "788a4696-9506-4468-bebe-903a9f380276"
+			"d9599c5b-6dc4-4122-a727-458d8f93e97f" "e147f490-e048-4fa8-af9d-c83025f9a087"
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/XT30UPB-F.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
