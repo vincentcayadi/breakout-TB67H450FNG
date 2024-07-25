@@ -12,13 +12,21 @@ This board is ideal for low-power robotics applications that require minimal tor
 
 I have designed the components using [KiCAD EDA](https://www.kicad.org/), a free EDA software.
 
-# Bill-Of-Materials
+## Bill-Of-Materials
 
-//Todo
+| Part        | Quantity |             Description             |                                           Link                                            |
+| :---------- | :------: | :---------------------------------: | :---------------------------------------------------------------------------------------: |
+| TB67H450FNG |    1     | Toshiba TB67H450FNG Motor Driver IC | https://www.mouser.sg/ProductDetail/Toshiba/TB67H450FNGEL?qs=h6V4JsTaLXeReNg2bp0jug%3D%3D |
 
-# Schematic
+
+## Schematic
 
 ![Schematic](schematic.jpeg)
 
-# PCB
+## PCB
+
 ![PCB](pcb.jpeg)
+
+## PCB Render
+
+![PCB Render](board-view.jpg)
